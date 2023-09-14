@@ -6,36 +6,86 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="font-family: 'Poppins', sans-serif;" />
+    <script
+      src="https://kit.fontawesome.com/7c8d101bbc.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Productly</title>
   </head>
   <body>
     <header>
-      <div class="logoandname">
-        <img class="logotype" src="images/Group 31.png" alt="logotype" />
-        <h2 class="logoname">Productly</h2>
+      <div class="header-container">
+        <div class="logoandname">
+          <img class="logotype" src="images/Group 31.png" alt="logotype" />
+          <h2 class="logoname">Productly</h2>
+        </div>
+        <nav class="nav">
+          <ul class="list">
+            <li class="navlinks"><a href="#">Product</a></li>
+            <li class="navlinks"><a href="#">Customers</a></li>
+            <li class="navlinks"><a href="#">Pricing</a></li>
+            <li class="navlinks"><a href="#">Resources</a></li>
+          </ul>
+        </nav>
+        <button class="signinbtn">Sign In</button>
+        <button class="signupbtn">Sign Up</button>
       </div>
-      <nav class="nav">
-        <ul class="list">
-          <li class="navlinks"><a href="#">Product</a></li>
-          <li class="navlinks"><a href="#">Customers</a></li>
-          <li class="navlinks"><a href="#">Pricing</a></li>
-          <li class="navlinks"><a href="#">Resources</a></li>
-        </ul>
-      </nav>
-      <button class="signinbtn">Sign In</button>
-      <button class="signupbtn">Sign Up</button>
     </header>
     <section class="section-1">
-      <h1>The Design Thinking Superpowers</h1>
-      <p>
-        Tools, tutorials, design and innovation experts, all in one place! The
-        most intuitive way to imagine your next user experience.
-      </p>
-      <button class="getstartedbtn">Get Started</button>
-      <button class="watchthevideobtn">Watch the video</button>
+      <div class="content-left">
+        <h1 class="head-line-section-1">The Design Thinking Superpowers</h1>
+        <p class="info-section-1">
+          Tools, tutorials, design and innovation experts, all in one place! The
+          most intuitive way to imagine your next user experience.
+        </p>
+        <div class="btn-section-1">
+          <button class="getstartedbtn">Get Started</button>
+          <button class="watchthevideobtn">
+            <i class="fa-solid fa-play"></i>Watch the video
+          </button>
+        </div>
+      </div>
+      <div class="content-right">
+        <img src="images/Image.png" alt="jumping-people" />
+      </div>
     </section>
     <section class="section-2">
-      <img src="images/Image.png" alt="jumping-people" />
+      <div class="head-line-section-2">
+        <h2>We design tools to unveil your superpowers</h2>
+      </div>
+      <div class="info-container">
+        <div class="info-section-2">
+          <img class="icon-2" src="images/icon.png" alt="mouse-arrow" />
+          <h3 class="text-2">First click tests</h3>
+          <p class="text-1">While most people enjoy casino gambling,</p>
+        </div>
+        <div class="info-section-2">
+          <img class="icon-2" src="images/icon (1).png" alt="design-surveys" />
+          <h3 class="text-2">Design surveys</h3>
+          <p class="text-2">
+            Sports betting, lottery and bingo playing for the fun
+          </p>
+        </div>
+        <div class="info-section-2">
+          <img class="icon-2" src="images/icon (2).png" alt="preference-test" />
+          <h3 class="text-2">Preference tests</h3>
+          <p class="text-3">The Myspace page defines the individual.</p>
+        </div>
+        <div class="info-section-2">
+          <img
+            class="icon-2"
+            src="images/icon (3).png"
+            alt="five-second-test"
+          />
+          <h3 class="text-2">Five second tests</h3>
+          <p class="text-4">
+            Personal choices and the overall personality of the person.
+          </p>
+        </div>
+      </div>
+      <div>
+        <button></button>
+      </div>
     </section>
   </body>
 </html>
